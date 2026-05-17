@@ -21,3 +21,18 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+# Gradle
+.gradle/
+
+# Backups
+backup.zip
+backup.rar
+backup.tar
+backup.tar.gz
+backup.gz
+*.bak
+*.*.bak
+*.*.*.bak
+*.*.*.*.bak
+*.*.*.*.*.bak

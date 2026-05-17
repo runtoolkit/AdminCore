@@ -1,0 +1,16 @@
+{
+  "item.admincore.wand": "AdminCore Wand",
+  "itemGroup.admincore.main": "AdminCore",
+
+  "screen.admincore.title": "AdminCore",
+  "screen.admincore.close": "Close",
+
+  "screen.admincore.approval.title": "Approve Command?",
+  "screen.admincore.approval.approve": "Approve",
+  "screen.admincore.approval.deny": "Deny",
+  "screen.admincore.approval.expired": "Approval request has expired.",
+
+  "screen.admincore.config.title": "AdminCore Settings",
+  "screen.admincore.config.open": "Open Control Screen",
+  "screen.admincore.config.reload": "Reload Datapack Cache"
+}

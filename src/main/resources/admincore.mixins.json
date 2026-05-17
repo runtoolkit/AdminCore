@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.legends11.admincore.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "CommandManagerMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

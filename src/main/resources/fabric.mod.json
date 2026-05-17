@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "admincore",
+  "version": "${version}",
+  "name": "AdminCore",
+  "description": "Server management: dangerous-command approval, datapack-driven functions, GUI screens, and storage for Fabric 1.20.4.",
+  "authors": ["Legends11"],
+  "contact": {
+    "sources": "https://github.com/runtoolkit/AdminCore"
+  },
+  "license": "MIT",
+  "icon": "assets/admincore/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.legends11.admincore.AdminCoreMod"],
+    "client": ["com.legends11.admincore.AdminCoreClient"]
+  },
+  "mixins": ["admincore.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.source": "https://github.com/runtoolkit/AdminCore"
+      }
+    }
+  }
+}
